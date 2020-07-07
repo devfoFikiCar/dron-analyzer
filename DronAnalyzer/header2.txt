@@ -1,0 +1,6 @@
+<Placemark>
+  <name>Path</name>
+  <description>Path</description>
+  <styleUrl>#Flightpath</styleUrl>
+  <gx:Track>
+    <altitudeMode>relativeToGround</altitudeMode>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+  <name>FlightLog evaluation for Yuneec copter</name>
+<description>Flight path 3D</description>
+<Style id="Flightpath">
+  <LineStyle>
+    <color>FF00FFFF</color>
+    <width>2</width>
+  </LineStyle>
+  <PolyStyle><color>7f00ff00</color></PolyStyle>
+  <IconStyle><Icon><href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href></Icon></IconStyle>
+</Style>
+<Style id="GrndStn">
+  <LineStyle>
+    <color>FF000000</color>
+    <width>2</width>
+  </LineStyle>
+</Style>
+<Style id="starting">
+  <IconStyle><Icon><href>https://maps.google.com/mapfiles/dir_0.png</href></Icon></IconStyle>
+</Style>
+<Style id="landing">
+  <IconStyle><Icon><href>https://maps.google.com/mapfiles/dir_walk_60.png</href></Icon></IconStyle>
+</Style>
+<Style id="alert">
+  <IconStyle><Icon><href>https://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_red.png</href></Icon></IconStyle>
+</Style>
+<Style id="info">
+  <IconStyle><Icon><href>https://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_yellow.png</href></Icon></IconStyle>
+</Style>
+<Style id="photo">
+  <IconStyle><Icon><href>https://maps.google.com/mapfiles/kml/pal4/icon38.png</href></Icon></IconStyle>
+</Style>
