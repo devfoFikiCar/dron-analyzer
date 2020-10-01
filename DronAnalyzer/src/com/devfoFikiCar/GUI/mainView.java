@@ -47,7 +47,7 @@ public class mainView {
                 try {
                     write3D();
 
-                    String pythonInterpreter = "/usr/bin/python3" ; // default
+                    String pythonInterpreter = "python3" ; // default
 
                     InputStream script = mainView.class.getResourceAsStream("vizualize3D.py");
                     Process pythonProcess = new ProcessBuilder(pythonInterpreter, "-")
